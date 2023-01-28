@@ -51,9 +51,15 @@ h3 {
     margin: auto;  
 } */
 
-.item img:hover{
+/* 
+Hover Effects */
+
+  .item img {
+    transition: all ease;
+  }
+  
+  .item:hover img {
     transform: scale(1.05);
-    transition: all ease ;
-    /* border-radius: 15px; */
+    transition: all ease;
     box-shadow: 0 0 5px rgb(136, 219, 140);
-}
+  }
